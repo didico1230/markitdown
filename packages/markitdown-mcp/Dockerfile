@@ -23,4 +23,4 @@ ARG GROUPID=nogroup
 
 USER $USERID:$GROUPID
 
-ENTRYPOINT [ "markitdown-mcp" ]
+ENTRYPOINT [ "markitdown-mcp --sse --host 127.0.0.1 --port 3001" ]
